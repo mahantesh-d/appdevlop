@@ -1,0 +1,39 @@
+{
+  "build": "h38be061_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "httptools >=0.5.0",
+    "python-dotenv >=0.13",
+    "python_abi 3.11.* *_cp311",
+    "pyyaml >=5.1",
+    "uvicorn 0.23.1 py311h38be061_0",
+    "uvloop >=0.14.0,!=0.15.0,!=0.15.1",
+    "watchfiles >=0.13",
+    "websockets >=10.4"
+  ],
+  "extracted_package_dir": "/home/mahantesh/miniconda3/pkgs/uvicorn-standard-0.23.1-h38be061_0",
+  "files": [],
+  "fn": "uvicorn-standard-0.23.1-h38be061_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/mahantesh/miniconda3/pkgs/uvicorn-standard-0.23.1-h38be061_0",
+    "type": 1
+  },
+  "md5": "4ce0087170b131ca4333bb7d0e04a117",
+  "name": "uvicorn-standard",
+  "package_tarball_full_path": "/home/mahantesh/miniconda3/pkgs/uvicorn-standard-0.23.1-h38be061_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "uvicorn-standard",
+  "sha256": "412dd514b51e63b056fe9c1b41e7e37f20cada128f63bf8c7f583e137c88323d",
+  "size": 7210,
+  "subdir": "linux-64",
+  "timestamp": 1689681697130,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/uvicorn-standard-0.23.1-h38be061_0.conda",
+  "version": "0.23.1"
+}

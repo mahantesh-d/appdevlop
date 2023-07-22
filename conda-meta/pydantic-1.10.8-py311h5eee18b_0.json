@@ -1,0 +1,736 @@
+{
+  "build": "py311h5eee18b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [
+    "email-validator >=1.0.3",
+    "python-dotenv >=0.10.4"
+  ],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "python >=3.11,<3.12.0a0",
+    "typing-extensions >=4.2.0"
+  ],
+  "extracted_package_dir": "/home/mahantesh/miniconda3/pkgs/pydantic-1.10.8-py311h5eee18b_0",
+  "files": [
+    "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/LICENSE",
+    "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/METADATA",
+    "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/RECORD",
+    "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/WHEEL",
+    "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/pydantic/__init__.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/__init__.py",
+    "lib/python3.11/site-packages/pydantic/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/_hypothesis_plugin.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/annotated_types.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/class_validators.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/color.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/config.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/dataclasses.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/datetime_parse.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/decorator.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/env_settings.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/error_wrappers.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/errors.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/fields.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/generics.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/json.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/main.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/mypy.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/networks.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/parse.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/schema.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/tools.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/types.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/typing.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/utils.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/validators.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/__pycache__/version.cpython-311.pyc",
+    "lib/python3.11/site-packages/pydantic/_hypothesis_plugin.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/_hypothesis_plugin.py",
+    "lib/python3.11/site-packages/pydantic/annotated_types.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/annotated_types.py",
+    "lib/python3.11/site-packages/pydantic/class_validators.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/class_validators.py",
+    "lib/python3.11/site-packages/pydantic/color.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/color.py",
+    "lib/python3.11/site-packages/pydantic/config.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/config.py",
+    "lib/python3.11/site-packages/pydantic/dataclasses.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/dataclasses.py",
+    "lib/python3.11/site-packages/pydantic/datetime_parse.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/datetime_parse.py",
+    "lib/python3.11/site-packages/pydantic/decorator.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/decorator.py",
+    "lib/python3.11/site-packages/pydantic/env_settings.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/env_settings.py",
+    "lib/python3.11/site-packages/pydantic/error_wrappers.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/error_wrappers.py",
+    "lib/python3.11/site-packages/pydantic/errors.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/errors.py",
+    "lib/python3.11/site-packages/pydantic/fields.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/fields.py",
+    "lib/python3.11/site-packages/pydantic/generics.py",
+    "lib/python3.11/site-packages/pydantic/json.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/json.py",
+    "lib/python3.11/site-packages/pydantic/main.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/main.py",
+    "lib/python3.11/site-packages/pydantic/mypy.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/mypy.py",
+    "lib/python3.11/site-packages/pydantic/networks.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/networks.py",
+    "lib/python3.11/site-packages/pydantic/parse.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/parse.py",
+    "lib/python3.11/site-packages/pydantic/py.typed",
+    "lib/python3.11/site-packages/pydantic/schema.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/schema.py",
+    "lib/python3.11/site-packages/pydantic/tools.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/tools.py",
+    "lib/python3.11/site-packages/pydantic/types.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/types.py",
+    "lib/python3.11/site-packages/pydantic/typing.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/typing.py",
+    "lib/python3.11/site-packages/pydantic/utils.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/utils.py",
+    "lib/python3.11/site-packages/pydantic/validators.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/validators.py",
+    "lib/python3.11/site-packages/pydantic/version.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/pydantic/version.py"
+  ],
+  "fn": "pydantic-1.10.8-py311h5eee18b_0.conda",
+  "legacy_bz2_md5": "34e6a9685ab1056233f85d9785cc6e12",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/mahantesh/miniconda3/pkgs/pydantic-1.10.8-py311h5eee18b_0",
+    "type": 1
+  },
+  "md5": "be07e3a05ee99125eae4f8e618ed28bf",
+  "name": "pydantic",
+  "package_tarball_full_path": "/home/mahantesh/miniconda3/pkgs/pydantic-1.10.8-py311h5eee18b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "9e3946690ac88b6b73e8f001a0586af13568be8852fd514e4393f39761764387",
+        "sha256_in_prefix": "9e3946690ac88b6b73e8f001a0586af13568be8852fd514e4393f39761764387",
+        "size_in_bytes": 1127
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ba9d0d467376376f84a02d036e6f16750a8ffd73c3af011973109491f6a036f7",
+        "sha256_in_prefix": "ba9d0d467376376f84a02d036e6f16750a8ffd73c3af011973109491f6a036f7",
+        "size_in_bytes": 146381
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4fe5f2fde5d0f41d3134f81fcd47b583becb6e66986ea044ccad379cb2ad73e1",
+        "sha256_in_prefix": "4fe5f2fde5d0f41d3134f81fcd47b583becb6e66986ea044ccad379cb2ad73e1",
+        "size_in_bytes": 6918
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c02a475393eb2c635da68f996823ad13ab5ed327002b6a18bc999324250a9d44",
+        "sha256_in_prefix": "c02a475393eb2c635da68f996823ad13ab5ed327002b6a18bc999324250a9d44",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f61589a97ae99112d0efbeb93b4b9ba411cb13ac6c4a7cc8adb2de628e65fe2d",
+        "sha256_in_prefix": "f61589a97ae99112d0efbeb93b4b9ba411cb13ac6c4a7cc8adb2de628e65fe2d",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "12ab87e67de98a521783e2cb6b52b87afa6ee7ee9d9efc738babf0be4a00327b",
+        "sha256_in_prefix": "12ab87e67de98a521783e2cb6b52b87afa6ee7ee9d9efc738babf0be4a00327b",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic-1.10.8.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "726a3fe67d05fd8639b5de673d905f76304436498683fa44e528565d86d7c533",
+        "sha256_in_prefix": "726a3fe67d05fd8639b5de673d905f76304436498683fa44e528565d86d7c533",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__init__.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "4a5e5c467872af980ad035f884d0cfbaf4f611f77edb424995a3f232f6459dc5",
+        "sha256_in_prefix": "4a5e5c467872af980ad035f884d0cfbaf4f611f77edb424995a3f232f6459dc5",
+        "size_in_bytes": 60376
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "893bbc0b0596be7eb333fcd826daa189edb83c8996db9ce8922b73ff4ea40d8c",
+        "sha256_in_prefix": "893bbc0b0596be7eb333fcd826daa189edb83c8996db9ce8922b73ff4ea40d8c",
+        "size_in_bytes": 2771
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "64da8cbb1f05078601e25ce0022bb60084ae0685189e892662800293ff4e5d1d",
+        "sha256_in_prefix": "64da8cbb1f05078601e25ce0022bb60084ae0685189e892662800293ff4e5d1d",
+        "size_in_bytes": 2237
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/_hypothesis_plugin.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e0838694b09e6bff8fa1453da2e72f36cf874900e68184c5953d18492a9df95b",
+        "sha256_in_prefix": "e0838694b09e6bff8fa1453da2e72f36cf874900e68184c5953d18492a9df95b",
+        "size_in_bytes": 19683
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/annotated_types.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0fb3408ebec4534c76cf9879163f5e2e82de7e49daf48e646642447418106a02",
+        "sha256_in_prefix": "0fb3408ebec4534c76cf9879163f5e2e82de7e49daf48e646642447418106a02",
+        "size_in_bytes": 4624
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/class_validators.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b5e0fd3f4c3404195c66e352a9676604b065c86113419d6a95cc1fdc7cdc90a",
+        "sha256_in_prefix": "6b5e0fd3f4c3404195c66e352a9676604b065c86113419d6a95cc1fdc7cdc90a",
+        "size_in_bytes": 22688
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/color.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "68f82189f6fa562ef35d864ba16271e8b9dc6a06cd2693aa952bdf0fd03ceead",
+        "sha256_in_prefix": "68f82189f6fa562ef35d864ba16271e8b9dc6a06cd2693aa952bdf0fd03ceead",
+        "size_in_bytes": 28158
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/config.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c061ce04ef404fa63be196384a9eb040188d9ff5f31b804ecae00ce3ca7343a1",
+        "sha256_in_prefix": "c061ce04ef404fa63be196384a9eb040188d9ff5f31b804ecae00ce3ca7343a1",
+        "size_in_bytes": 9957
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/dataclasses.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a5a0556ec881b91ae5a3b7443d62096f4d05cc8e2e98fd7293c325d29dc7c76d",
+        "sha256_in_prefix": "a5a0556ec881b91ae5a3b7443d62096f4d05cc8e2e98fd7293c325d29dc7c76d",
+        "size_in_bytes": 24570
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/datetime_parse.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "dbdaf87c2b93c0dc517f79f0e4440babd904b31619ed6485d58f60be9d79d61c",
+        "sha256_in_prefix": "dbdaf87c2b93c0dc517f79f0e4440babd904b31619ed6485d58f60be9d79d61c",
+        "size_in_bytes": 11943
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/decorator.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "8d965bea1c1a41ce1a4f10739d3a395ab7afb840a2c46c69beb7595dc9f11551",
+        "sha256_in_prefix": "8d965bea1c1a41ce1a4f10739d3a395ab7afb840a2c46c69beb7595dc9f11551",
+        "size_in_bytes": 15583
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/env_settings.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e16e956cf89c39d7ef8a4f3546ba078cc93337c7bc97f3aadd440b95740a1f5",
+        "sha256_in_prefix": "5e16e956cf89c39d7ef8a4f3546ba078cc93337c7bc97f3aadd440b95740a1f5",
+        "size_in_bytes": 19737
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/error_wrappers.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "60ba408b004a95ebc832037e40fd7f23e2f44f103ce3045a5b0ae53e2aa5b075",
+        "sha256_in_prefix": "60ba408b004a95ebc832037e40fd7f23e2f44f103ce3045a5b0ae53e2aa5b075",
+        "size_in_bytes": 9953
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/errors.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4082284416d5e8ee45613e8793d149d2b867799e5e56ef99419cc5db9eb9765e",
+        "sha256_in_prefix": "4082284416d5e8ee45613e8793d149d2b867799e5e56ef99419cc5db9eb9765e",
+        "size_in_bytes": 36502
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/fields.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "8efcac81fec0fad18456516a2dbd63c7467bfc96952ae229797102793a0a79e4",
+        "sha256_in_prefix": "8efcac81fec0fad18456516a2dbd63c7467bfc96952ae229797102793a0a79e4",
+        "size_in_bytes": 62657
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/generics.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d3426b2e3260ff38e9957d81f8f01e027162fe80b22b5b3cfd63eee00c1412d",
+        "sha256_in_prefix": "2d3426b2e3260ff38e9957d81f8f01e027162fe80b22b5b3cfd63eee00c1412d",
+        "size_in_bytes": 19144
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/json.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd77735434eb641520fcae2b5c4e16359654da5f063059bb3e949f021ed59953",
+        "sha256_in_prefix": "fd77735434eb641520fcae2b5c4e16359654da5f063059bb3e949f021ed59953",
+        "size_in_bytes": 5620
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/main.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "18dc45ab418e0d971043303369309ba45cf9d17eed7e65653e80e38a2174605a",
+        "sha256_in_prefix": "18dc45ab418e0d971043303369309ba45cf9d17eed7e65653e80e38a2174605a",
+        "size_in_bytes": 54756
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/mypy.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "f64f3645ac845a8e2bebb0236be8572fa0d3d6890a9660c3fb76eae5e9879307",
+        "sha256_in_prefix": "f64f3645ac845a8e2bebb0236be8572fa0d3d6890a9660c3fb76eae5e9879307",
+        "size_in_bytes": 49783
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/networks.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "383557a4739f0328e42f927cf3a38eca89b1d7b81c91b5d26457ab9a57ac23c3",
+        "sha256_in_prefix": "383557a4739f0328e42f927cf3a38eca89b1d7b81c91b5d26457ab9a57ac23c3",
+        "size_in_bytes": 33908
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/parse.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d756c596fb8e0e2dad80030e4da13dac0c0e3be80c728a11235a0426e1b89549",
+        "sha256_in_prefix": "d756c596fb8e0e2dad80030e4da13dac0c0e3be80c728a11235a0426e1b89549",
+        "size_in_bytes": 3006
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/schema.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "92998b7e004aaa538e8c45ad22e45bda4c49d48176707120836f71e571c99c12",
+        "sha256_in_prefix": "92998b7e004aaa538e8c45ad22e45bda4c49d48176707120836f71e571c99c12",
+        "size_in_bytes": 54464
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/tools.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "207f4fe1f3c1a59db2893d9c93c463150fde09ca9c7bfccf01b759b4c476be2d",
+        "sha256_in_prefix": "207f4fe1f3c1a59db2893d9c93c463150fde09ca9c7bfccf01b759b4c476be2d",
+        "size_in_bytes": 4398
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/types.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ebba1e2adfc89dc570ed41d25da37ff2d2ebf22eeda9a324136f16076babf382",
+        "sha256_in_prefix": "ebba1e2adfc89dc570ed41d25da37ff2d2ebf22eeda9a324136f16076babf382",
+        "size_in_bytes": 54750
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/typing.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "f7527e3727356d071a9346f7afbd10c3d5ed9be750685cc455436087e68e6566",
+        "sha256_in_prefix": "f7527e3727356d071a9346f7afbd10c3d5ed9be750685cc455436087e68e6566",
+        "size_in_bytes": 25139
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/utils.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "84beebb565ce53ed86f064502c3b843adfd42c47b7be9cd4f1af2b351fffbcc2",
+        "sha256_in_prefix": "84beebb565ce53ed86f064502c3b843adfd42c47b7be9cd4f1af2b351fffbcc2",
+        "size_in_bytes": 40611
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/validators.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ea6be228eb917c93913b4c7c9b7dd2a1ab35583ca308d7ed7ff576c063b5932",
+        "sha256_in_prefix": "1ea6be228eb917c93913b4c7c9b7dd2a1ab35583ca308d7ed7ff576c063b5932",
+        "size_in_bytes": 34495
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/__pycache__/version.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "15c080524b6a5b0b24886b7ae592fb3d9d69ebfcb04aa2e99471d092af861e2a",
+        "sha256_in_prefix": "15c080524b6a5b0b24886b7ae592fb3d9d69ebfcb04aa2e99471d092af861e2a",
+        "size_in_bytes": 2174
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/_hypothesis_plugin.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "ec6a7e975d58adba94a11396dcba3b9a026e4dd1450944465b988ca21262c131",
+        "sha256_in_prefix": "ec6a7e975d58adba94a11396dcba3b9a026e4dd1450944465b988ca21262c131",
+        "size_in_bytes": 255768
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/_hypothesis_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "a5d176856747aa018a669395a46afac49fe7f44dc8bd7950a5b4c84e41e97167",
+        "sha256_in_prefix": "a5d176856747aa018a669395a46afac49fe7f44dc8bd7950a5b4c84e41e97167",
+        "size_in_bytes": 14586
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/annotated_types.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "f8619d4d9af21a73fea2ab0d1278de4d49ce11d3911f2798820b1811de8bdccc",
+        "sha256_in_prefix": "f8619d4d9af21a73fea2ab0d1278de4d49ce11d3911f2798820b1811de8bdccc",
+        "size_in_bytes": 107520
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/annotated_types.py",
+        "path_type": "hardlink",
+        "sha256": "7494c35323e3e10263e2b0dc364b7dc4350c1849009ee5b30de184daaed6c6b7",
+        "sha256_in_prefix": "7494c35323e3e10263e2b0dc364b7dc4350c1849009ee5b30de184daaed6c6b7",
+        "size_in_bytes": 3124
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/class_validators.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "be46c0b4001f2228cbd42da9da5cb52282ea51570fe92fa2dff0c3d79809d4e6",
+        "sha256_in_prefix": "be46c0b4001f2228cbd42da9da5cb52282ea51570fe92fa2dff0c3d79809d4e6",
+        "size_in_bytes": 305040
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/class_validators.py",
+        "path_type": "hardlink",
+        "sha256": "d01671d05b75f5c44454710e680eb07ff1370346d32f8c10206cde3a29d56ad8",
+        "sha256_in_prefix": "d01671d05b75f5c44454710e680eb07ff1370346d32f8c10206cde3a29d56ad8",
+        "size_in_bytes": 14595
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/color.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "4db2ed8ccc1dad9311c4368e6ea425752e9e965c7a0950aef841c5aee3d33add",
+        "sha256_in_prefix": "4db2ed8ccc1dad9311c4368e6ea425752e9e965c7a0950aef841c5aee3d33add",
+        "size_in_bytes": 370320
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/color.py",
+        "path_type": "hardlink",
+        "sha256": "706cdc93b9120f96de06438c85d6b86df4c80a9bade9d331f061a9114e522b96",
+        "sha256_in_prefix": "706cdc93b9120f96de06438c85d6b86df4c80a9bade9d331f061a9114e522b96",
+        "size_in_bytes": 16811
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/config.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "84dd22f69ae9758d6316e17414e7269b6a5732465931109245d608b499ed2a50",
+        "sha256_in_prefix": "84dd22f69ae9758d6316e17414e7269b6a5732465931109245d608b499ed2a50",
+        "size_in_bytes": 127456
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/config.py",
+        "path_type": "hardlink",
+        "sha256": "0deeb505b14d5e7024f8493b43287f63a04f7376610f7e84415844e985865d28",
+        "sha256_in_prefix": "0deeb505b14d5e7024f8493b43287f63a04f7376610f7e84415844e985865d28",
+        "size_in_bytes": 6429
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/dataclasses.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "6117205721c42a376f3779c67bb405c2f1ec5f390ac954940483d8c0df4c9dfe",
+        "sha256_in_prefix": "6117205721c42a376f3779c67bb405c2f1ec5f390ac954940483d8c0df4c9dfe",
+        "size_in_bytes": 304000
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/dataclasses.py",
+        "path_type": "hardlink",
+        "sha256": "ae889523ae3208debc68c4711c4c3ad79aa0adc744c291c01df4c4cff1e502d4",
+        "sha256_in_prefix": "ae889523ae3208debc68c4711c4c3ad79aa0adc744c291c01df4c4cff1e502d4",
+        "size_in_bytes": 17515
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/datetime_parse.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "f37d839eb26fd12d142a0666289dec579aeee468a7d86b9626529b11ad224239",
+        "sha256_in_prefix": "f37d839eb26fd12d142a0666289dec579aeee468a7d86b9626529b11ad224239",
+        "size_in_bytes": 151920
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/datetime_parse.py",
+        "path_type": "hardlink",
+        "sha256": "0e119f91b1b856ce4ecb1ab7bbc8ccfbb805adbb942ac9fee1a1b60c90c96c7c",
+        "sha256_in_prefix": "0e119f91b1b856ce4ecb1ab7bbc8ccfbb805adbb942ac9fee1a1b60c90c96c7c",
+        "size_in_bytes": 7714
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/decorator.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "992952255482b2d6c7ee28ebbedb067b27d68fe6debc859049346a4ff1a77d90",
+        "sha256_in_prefix": "992952255482b2d6c7ee28ebbedb067b27d68fe6debc859049346a4ff1a77d90",
+        "size_in_bytes": 228248
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/decorator.py",
+        "path_type": "hardlink",
+        "sha256": "c33b88b8a2875636a213ded805cb42534561a345519543be695bb521411ccc51",
+        "sha256_in_prefix": "c33b88b8a2875636a213ded805cb42534561a345519543be695bb521411ccc51",
+        "size_in_bytes": 10263
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/env_settings.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "419fc8eaf1ada282eada202b7d54de77deb1fe00d63f3001b1ee55e005dec4a4",
+        "sha256_in_prefix": "419fc8eaf1ada282eada202b7d54de77deb1fe00d63f3001b1ee55e005dec4a4",
+        "size_in_bytes": 288520
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/env_settings.py",
+        "path_type": "hardlink",
+        "sha256": "ea88f63eeefc87086c974f7b40d9572c6a0f2a3419d279f7a219de2b8f6ae711",
+        "sha256_in_prefix": "ea88f63eeefc87086c974f7b40d9572c6a0f2a3419d279f7a219de2b8f6ae711",
+        "size_in_bytes": 13893
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/error_wrappers.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "e7b26203bdfc417062e1fa2a054efa756e102d686bb9180c8e8481e0cf55543d",
+        "sha256_in_prefix": "e7b26203bdfc417062e1fa2a054efa756e102d686bb9180c8e8481e0cf55543d",
+        "size_in_bytes": 187720
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/error_wrappers.py",
+        "path_type": "hardlink",
+        "sha256": "36f7de985158c7d1052d7046789d3b30a4f6309400245165c7f6c8a15a6a8152",
+        "sha256_in_prefix": "36f7de985158c7d1052d7046789d3b30a4f6309400245165c7f6c8a15a6a8152",
+        "size_in_bytes": 5142
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/errors.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "30243e4780bba01ad9bf4b61072b1c6833986195b177dbccb5b65858cf151794",
+        "sha256_in_prefix": "30243e4780bba01ad9bf4b61072b1c6833986195b177dbccb5b65858cf151794",
+        "size_in_bytes": 307624
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/errors.py",
+        "path_type": "hardlink",
+        "sha256": "7fddf3df44b8b396c9125f095e1fb314202d2c30a4a3dcdeda129390e8a669af",
+        "sha256_in_prefix": "7fddf3df44b8b396c9125f095e1fb314202d2c30a4a3dcdeda129390e8a669af",
+        "size_in_bytes": 17693
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/fields.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "fdae50b60bebad9a091d81e4a7f12d549e9851028496b166e77776cc2796ac11",
+        "sha256_in_prefix": "fdae50b60bebad9a091d81e4a7f12d549e9851028496b166e77776cc2796ac11",
+        "size_in_bytes": 637968
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/fields.py",
+        "path_type": "hardlink",
+        "sha256": "b0184aa831fb45c415b22feac3bb94b283f1f9600b410434549b8d553bee130d",
+        "sha256_in_prefix": "b0184aa831fb45c415b22feac3bb94b283f1f9600b410434549b8d553bee130d",
+        "size_in_bytes": 50418
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/generics.py",
+        "path_type": "hardlink",
+        "sha256": "6d442cd9dca74ed7d4ed71ff47e43253b48125e75eaf54c989f0e23e3ce4c6e1",
+        "sha256_in_prefix": "6d442cd9dca74ed7d4ed71ff47e43253b48125e75eaf54c989f0e23e3ce4c6e1",
+        "size_in_bytes": 17424
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/json.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "4068bd8a8f5042069cdd07c4ede1ce09b7a7d21bd73fecd0f8f6c7eacf426e87",
+        "sha256_in_prefix": "4068bd8a8f5042069cdd07c4ede1ce09b7a7d21bd73fecd0f8f6c7eacf426e87",
+        "size_in_bytes": 113856
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/json.py",
+        "path_type": "hardlink",
+        "sha256": "074809d9698fab0fba7ecbcf9a0bbeaf08613b2e04d09a5b6d88c2f07474d47a",
+        "sha256_in_prefix": "074809d9698fab0fba7ecbcf9a0bbeaf08613b2e04d09a5b6d88c2f07474d47a",
+        "size_in_bytes": 3346
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/main.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "9253fff341b64f7c9a733d2b3b299c66a6695d99b02b2431342efb77f479fd05",
+        "sha256_in_prefix": "9253fff341b64f7c9a733d2b3b299c66a6695d99b02b2431342efb77f479fd05",
+        "size_in_bytes": 707336
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/main.py",
+        "path_type": "hardlink",
+        "sha256": "902e7f6dc25ce33a0b851515bcdabaec00a61a646d405bf24470ee6fa730e629",
+        "sha256_in_prefix": "902e7f6dc25ce33a0b851515bcdabaec00a61a646d405bf24470ee6fa730e629",
+        "size_in_bytes": 44378
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/mypy.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "20819ad60d6f31258d58190973556e0d9a461e68178635d6fe30457102f75a70",
+        "sha256_in_prefix": "20819ad60d6f31258d58190973556e0d9a461e68178635d6fe30457102f75a70",
+        "size_in_bytes": 561464
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/mypy.py",
+        "path_type": "hardlink",
+        "sha256": "eb5bd127c9c76b18185ba351f00e591e6f6a920a30a6e69fe5e14510d3f3f002",
+        "sha256_in_prefix": "eb5bd127c9c76b18185ba351f00e591e6f6a920a30a6e69fe5e14510d3f3f002",
+        "size_in_bytes": 38097
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/networks.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "906e36c46a4a810400953f781a644541b1a6e7ac58c1b8862d9a5d2a58cfc240",
+        "sha256_in_prefix": "906e36c46a4a810400953f781a644541b1a6e7ac58c1b8862d9a5d2a58cfc240",
+        "size_in_bytes": 395704
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/networks.py",
+        "path_type": "hardlink",
+        "sha256": "18dd712260932b77aaffb2005911b172efa924e08385ffbc26fb99e5fa84b7f7",
+        "sha256_in_prefix": "18dd712260932b77aaffb2005911b172efa924e08385ffbc26fb99e5fa84b7f7",
+        "size_in_bytes": 21826
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/parse.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "b2125321de6329191ca61d01aeefaf5a27c752543272ca894c9cbaaed6de62c0",
+        "sha256_in_prefix": "b2125321de6329191ca61d01aeefaf5a27c752543272ca894c9cbaaed6de62c0",
+        "size_in_bytes": 79416
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/parse.py",
+        "path_type": "hardlink",
+        "sha256": "aeb5616962caf2dd37ad3de8c6f0bab912ee4c5e6267634a1af1aab3889010cd",
+        "sha256_in_prefix": "aeb5616962caf2dd37ad3de8c6f0bab912ee4c5e6267634a1af1aab3889010cd",
+        "size_in_bytes": 1810
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/schema.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "c6f45ee992a76ba61864cb85386ae43c0e654f0f6d0c644c9500747901f8c3c0",
+        "sha256_in_prefix": "c6f45ee992a76ba61864cb85386ae43c0e654f0f6d0c644c9500747901f8c3c0",
+        "size_in_bytes": 712264
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/schema.py",
+        "path_type": "hardlink",
+        "sha256": "66a2104298f1a211b484fed9cf95b8d357e99b899836efc2ae6bebe47960bcc0",
+        "sha256_in_prefix": "66a2104298f1a211b484fed9cf95b8d357e99b899836efc2ae6bebe47960bcc0",
+        "size_in_bytes": 47615
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/tools.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "9c5d595545ff40b4dace758ef0cc0faf30741ed45e668f77ab587b4a61b81db7",
+        "sha256_in_prefix": "9c5d595545ff40b4dace758ef0cc0faf30741ed45e668f77ab587b4a61b81db7",
+        "size_in_bytes": 102272
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/tools.py",
+        "path_type": "hardlink",
+        "sha256": "e05c6aa75f55702360846485ee3ab424977cda4bc68273b4be7e2ac5398aa808",
+        "sha256_in_prefix": "e05c6aa75f55702360846485ee3ab424977cda4bc68273b4be7e2ac5398aa808",
+        "size_in_bytes": 2834
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/types.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "4ffcbc8cf6bc51d5ac0e0551a833a837265dab6561a14e05f5198a10e5f0286b",
+        "sha256_in_prefix": "4ffcbc8cf6bc51d5ac0e0551a833a837265dab6561a14e05f5198a10e5f0286b",
+        "size_in_bytes": 590824
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/types.py",
+        "path_type": "hardlink",
+        "sha256": "4c59ae93daa269275852c724db11ab8b0c8de90144ec672c9c6d03875cd4f886",
+        "sha256_in_prefix": "4c59ae93daa269275852c724db11ab8b0c8de90144ec672c9c6d03875cd4f886",
+        "size_in_bytes": 35219
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/typing.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "5fb506031bfd201d06488dcc0d69bb8b893d72af21c80f79dbe84c28299c2231",
+        "sha256_in_prefix": "5fb506031bfd201d06488dcc0d69bb8b893d72af21c80f79dbe84c28299c2231",
+        "size_in_bytes": 313440
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/typing.py",
+        "path_type": "hardlink",
+        "sha256": "152b249219f4e02990bd25c3dcc8b33ca91e2e3e074adcbbf7a73f0f9289b6ba",
+        "sha256_in_prefix": "152b249219f4e02990bd25c3dcc8b33ca91e2e3e074adcbbf7a73f0f9289b6ba",
+        "size_in_bytes": 19358
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/utils.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "9ece4b2f71c9347bec723ef297622b8ca089ff0d294d66bdcd3779b25ebc88b8",
+        "sha256_in_prefix": "9ece4b2f71c9347bec723ef297622b8ca089ff0d294d66bdcd3779b25ebc88b8",
+        "size_in_bytes": 485912
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/utils.py",
+        "path_type": "hardlink",
+        "sha256": "e70ed0dcdfc5aa0e47f7ffc94036ae9b0f4ddc415d95cee06a512c086c440cdd",
+        "sha256_in_prefix": "e70ed0dcdfc5aa0e47f7ffc94036ae9b0f4ddc415d95cee06a512c086c440cdd",
+        "size_in_bytes": 25809
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/validators.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "619c02b3054087f64d6917c318e7dae897f61bb5cd278a2e9c4db8803d0f0389",
+        "sha256_in_prefix": "619c02b3054087f64d6917c318e7dae897f61bb5cd278a2e9c4db8803d0f0389",
+        "size_in_bytes": 572304
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/validators.py",
+        "path_type": "hardlink",
+        "sha256": "4096885548037cc8aca3b619f9858cacdc2a4ef2e81b0cc3318f23b694dabf57",
+        "sha256_in_prefix": "4096885548037cc8aca3b619f9858cacdc2a4ef2e81b0cc3318f23b694dabf57",
+        "size_in_bytes": 21874
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/version.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "3baca6491ce4b0ebee89c3bd557bff960a200e67c14e1d0e54df0e4cc81e4569",
+        "sha256_in_prefix": "3baca6491ce4b0ebee89c3bd557bff960a200e67c14e1d0e54df0e4cc81e4569",
+        "size_in_bytes": 85872
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pydantic/version.py",
+        "path_type": "hardlink",
+        "sha256": "029a5ded2fbd8b1bd84fe32aaa3ac33bfd53f74fe330a93ad31555f28e8d3d19",
+        "sha256_in_prefix": "029a5ded2fbd8b1bd84fe32aaa3ac33bfd53f74fe330a93ad31555f28e8d3d19",
+        "size_in_bytes": 1038
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "57dc25d810bde339edc6777a2590c1ae83031464a6a5a9d120ec5e40c6490708",
+  "size": 2459923,
+  "subdir": "linux-64",
+  "timestamp": 1686125967753,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pydantic-1.10.8-py311h5eee18b_0.conda",
+  "version": "1.10.8"
+}

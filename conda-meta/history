@@ -24,3 +24,45 @@
 +defaults/linux-64::zlib-1.2.13-h5eee18b_0
 +defaults/noarch::tzdata-2023c-h04d1e81_0
 # update specs: ['python=3.11']
+==> 2023-07-23 00:23:10 <==
+# cmd: /home/mahantesh/miniconda3/bin/conda install -c conda-forge fastapi
+# conda version: 23.5.2
+-defaults/linux-64::ca-certificates-2023.05.30-h06a4308_0
++conda-forge/linux-64::ca-certificates-2023.7.22-hbcca054_0
++conda-forge/noarch::anyio-3.7.1-pyhd8ed1ab_0
++conda-forge/noarch::exceptiongroup-1.1.2-pyhd8ed1ab_0
++conda-forge/noarch::fastapi-0.100.0-pyhd8ed1ab_0
++conda-forge/noarch::idna-3.4-pyhd8ed1ab_0
++conda-forge/noarch::sniffio-1.3.0-pyhd8ed1ab_0
++conda-forge/noarch::starlette-0.27.0-pyhd8ed1ab_0
++conda-forge/noarch::typing-extensions-4.7.1-hd8ed1ab_0
++conda-forge/noarch::typing_extensions-4.7.1-pyha770c72_0
++defaults/linux-64::pydantic-1.10.8-py311h5eee18b_0
+# update specs: ['fastapi']
+==> 2023-07-23 00:33:58 <==
+# cmd: /home/mahantesh/miniconda3/bin/conda install -c conda-forge uvicorn-standard
+# conda version: 23.5.2
+-defaults/linux-64::_libgcc_mutex-0.1-main
+-defaults/linux-64::_openmp_mutex-5.1-1_gnu
+-defaults/linux-64::libgcc-ng-11.2.0-h1234567_1
+-defaults/linux-64::libgomp-11.2.0-h1234567_1
+-defaults/linux-64::openssl-3.0.9-h7f8727e_0
++conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
++conda-forge/linux-64::_openmp_mutex-4.5-2_kmp_llvm
++conda-forge/linux-64::httptools-0.6.0-py311h459d7ec_0
++conda-forge/linux-64::libgcc-ng-13.1.0-he5830b7_0
++conda-forge/linux-64::libuv-1.44.2-h166bdaf_0
++conda-forge/linux-64::openssl-3.1.1-hd590300_1
++conda-forge/linux-64::python_abi-3.11-2_cp311
++conda-forge/linux-64::pyyaml-6.0-py311hd4cff14_5
++conda-forge/linux-64::uvicorn-0.23.1-py311h38be061_0
++conda-forge/linux-64::uvicorn-standard-0.23.1-h38be061_0
++conda-forge/linux-64::uvloop-0.17.0-py311hd4cff14_1
++conda-forge/linux-64::watchfiles-0.19.0-py311hfe55011_0
++conda-forge/linux-64::websockets-11.0.3-py311h459d7ec_0
++conda-forge/linux-64::yaml-0.2.5-h7f98852_2
++conda-forge/noarch::click-8.1.6-unix_pyh707e725_0
++conda-forge/noarch::h11-0.14.0-pyhd8ed1ab_0
++conda-forge/noarch::python-dotenv-1.0.0-pyhd8ed1ab_0
++defaults/linux-64::llvm-openmp-14.0.6-h9e868ea_0
+# update specs: ['uvicorn-standard']

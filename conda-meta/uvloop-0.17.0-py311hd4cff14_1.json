@@ -1,0 +1,612 @@
+{
+  "build": "py311hd4cff14_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "libuv >=1.44.2,<2.0a0",
+    "python >=3.11,<3.12.0a0",
+    "python_abi 3.11.* *_cp311"
+  ],
+  "extracted_package_dir": "/home/mahantesh/miniconda3/pkgs/uvloop-0.17.0-py311hd4cff14_1",
+  "files": [
+    "lib/python3.11/site-packages/uvloop-0.17.0-py3.11.egg-info/PKG-INFO",
+    "lib/python3.11/site-packages/uvloop-0.17.0-py3.11.egg-info/SOURCES.txt",
+    "lib/python3.11/site-packages/uvloop-0.17.0-py3.11.egg-info/dependency_links.txt",
+    "lib/python3.11/site-packages/uvloop-0.17.0-py3.11.egg-info/installed-files.txt",
+    "lib/python3.11/site-packages/uvloop-0.17.0-py3.11.egg-info/requires.txt",
+    "lib/python3.11/site-packages/uvloop-0.17.0-py3.11.egg-info/top_level.txt",
+    "lib/python3.11/site-packages/uvloop/__init__.py",
+    "lib/python3.11/site-packages/uvloop/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/uvloop/__pycache__/_noop.cpython-311.pyc",
+    "lib/python3.11/site-packages/uvloop/__pycache__/_testbase.cpython-311.pyc",
+    "lib/python3.11/site-packages/uvloop/__pycache__/_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/uvloop/_noop.py",
+    "lib/python3.11/site-packages/uvloop/_testbase.py",
+    "lib/python3.11/site-packages/uvloop/_version.py",
+    "lib/python3.11/site-packages/uvloop/cbhandles.pxd",
+    "lib/python3.11/site-packages/uvloop/cbhandles.pyx",
+    "lib/python3.11/site-packages/uvloop/dns.pyx",
+    "lib/python3.11/site-packages/uvloop/errors.pyx",
+    "lib/python3.11/site-packages/uvloop/handles/async_.pxd",
+    "lib/python3.11/site-packages/uvloop/handles/async_.pyx",
+    "lib/python3.11/site-packages/uvloop/handles/basetransport.pxd",
+    "lib/python3.11/site-packages/uvloop/handles/basetransport.pyx",
+    "lib/python3.11/site-packages/uvloop/handles/check.pxd",
+    "lib/python3.11/site-packages/uvloop/handles/check.pyx",
+    "lib/python3.11/site-packages/uvloop/handles/fsevent.pxd",
+    "lib/python3.11/site-packages/uvloop/handles/fsevent.pyx",
+    "lib/python3.11/site-packages/uvloop/handles/handle.pxd",
+    "lib/python3.11/site-packages/uvloop/handles/handle.pyx",
+    "lib/python3.11/site-packages/uvloop/handles/idle.pxd",
+    "lib/python3.11/site-packages/uvloop/handles/idle.pyx",
+    "lib/python3.11/site-packages/uvloop/handles/pipe.pxd",
+    "lib/python3.11/site-packages/uvloop/handles/pipe.pyx",
+    "lib/python3.11/site-packages/uvloop/handles/poll.pxd",
+    "lib/python3.11/site-packages/uvloop/handles/poll.pyx",
+    "lib/python3.11/site-packages/uvloop/handles/process.pxd",
+    "lib/python3.11/site-packages/uvloop/handles/process.pyx",
+    "lib/python3.11/site-packages/uvloop/handles/stream.pxd",
+    "lib/python3.11/site-packages/uvloop/handles/stream.pyx",
+    "lib/python3.11/site-packages/uvloop/handles/streamserver.pxd",
+    "lib/python3.11/site-packages/uvloop/handles/streamserver.pyx",
+    "lib/python3.11/site-packages/uvloop/handles/tcp.pxd",
+    "lib/python3.11/site-packages/uvloop/handles/tcp.pyx",
+    "lib/python3.11/site-packages/uvloop/handles/timer.pxd",
+    "lib/python3.11/site-packages/uvloop/handles/timer.pyx",
+    "lib/python3.11/site-packages/uvloop/handles/udp.pxd",
+    "lib/python3.11/site-packages/uvloop/handles/udp.pyx",
+    "lib/python3.11/site-packages/uvloop/includes/__init__.py",
+    "lib/python3.11/site-packages/uvloop/includes/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/uvloop/includes/compat.h",
+    "lib/python3.11/site-packages/uvloop/includes/consts.pxi",
+    "lib/python3.11/site-packages/uvloop/includes/debug.h",
+    "lib/python3.11/site-packages/uvloop/includes/debug.pxd",
+    "lib/python3.11/site-packages/uvloop/includes/flowcontrol.pxd",
+    "lib/python3.11/site-packages/uvloop/includes/fork_handler.h",
+    "lib/python3.11/site-packages/uvloop/includes/python.pxd",
+    "lib/python3.11/site-packages/uvloop/includes/stdlib.pxi",
+    "lib/python3.11/site-packages/uvloop/includes/system.pxd",
+    "lib/python3.11/site-packages/uvloop/includes/uv.pxd",
+    "lib/python3.11/site-packages/uvloop/loop.c",
+    "lib/python3.11/site-packages/uvloop/loop.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/uvloop/loop.pxd",
+    "lib/python3.11/site-packages/uvloop/loop.pyi",
+    "lib/python3.11/site-packages/uvloop/loop.pyx",
+    "lib/python3.11/site-packages/uvloop/lru.pyx",
+    "lib/python3.11/site-packages/uvloop/pseudosock.pyx",
+    "lib/python3.11/site-packages/uvloop/py.typed",
+    "lib/python3.11/site-packages/uvloop/request.pxd",
+    "lib/python3.11/site-packages/uvloop/request.pyx",
+    "lib/python3.11/site-packages/uvloop/server.pxd",
+    "lib/python3.11/site-packages/uvloop/server.pyx",
+    "lib/python3.11/site-packages/uvloop/sslproto.pxd",
+    "lib/python3.11/site-packages/uvloop/sslproto.pyx"
+  ],
+  "fn": "uvloop-0.17.0-py311hd4cff14_1.tar.bz2",
+  "license": "MIT OR Apache-2.0",
+  "link": {
+    "source": "/home/mahantesh/miniconda3/pkgs/uvloop-0.17.0-py311hd4cff14_1",
+    "type": 1
+  },
+  "md5": "e1335f7e1d24c73b0a5c719bf00bd73b",
+  "name": "uvloop",
+  "package_tarball_full_path": "/home/mahantesh/miniconda3/pkgs/uvloop-0.17.0-py311hd4cff14_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/uvloop-0.17.0-py3.11.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "f8bf9b0ea52112c357979822ab718088eb60ec06b25fcd1df59c6ddee7beb3a9",
+        "sha256_in_prefix": "f8bf9b0ea52112c357979822ab718088eb60ec06b25fcd1df59c6ddee7beb3a9",
+        "size_in_bytes": 3519
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop-0.17.0-py3.11.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "ed40678395e014edc74e54f5ebb5994f158e5d5b6e63fdd2621b94edec572f2c",
+        "sha256_in_prefix": "ed40678395e014edc74e54f5ebb5994f158e5d5b6e63fdd2621b94edec572f2c",
+        "size_in_bytes": 15715
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop-0.17.0-py3.11.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop-0.17.0-py3.11.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "6765478a53b539cdc30923c4aa530be000625a508a995bc93870f6ad16895a38",
+        "sha256_in_prefix": "6765478a53b539cdc30923c4aa530be000625a508a995bc93870f6ad16895a38",
+        "size_in_bytes": 1943
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop-0.17.0-py3.11.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "3b3a58198c86152c8cab0e79b451d5a1729c78cf02664fe62a084919142e85c1",
+        "sha256_in_prefix": "3b3a58198c86152c8cab0e79b451d5a1729c78cf02664fe62a084919142e85c1",
+        "size_in_bytes": 438
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop-0.17.0-py3.11.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d9c0da96dc9e9987d012b075f6cda3166ba67894676ec64f27b2e3f40efc73a6",
+        "sha256_in_prefix": "d9c0da96dc9e9987d012b075f6cda3166ba67894676ec64f27b2e3f40efc73a6",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f9a8e846f464dd3e07fc436059f30e829bb34d4112675cc299f8b7f91d28ba2b",
+        "sha256_in_prefix": "f9a8e846f464dd3e07fc436059f30e829bb34d4112675cc299f8b7f91d28ba2b",
+        "size_in_bytes": 1538
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "50b7162399bf16e30f353d72e0d5b5032f96e9a717c44ec905d9c75276149f71",
+        "sha256_in_prefix": "50b7162399bf16e30f353d72e0d5b5032f96e9a717c44ec905d9c75276149f71",
+        "size_in_bytes": 2541
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/__pycache__/_noop.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c5c41a3406aaa1bda8a8c8af93094b577a660c2e48e66ce17270570ec03f1f3",
+        "sha256_in_prefix": "0c5c41a3406aaa1bda8a8c8af93094b577a660c2e48e66ce17270570ec03f1f3",
+        "size_in_bytes": 332
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/__pycache__/_testbase.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a30ab2ede154f157274f70cccbb6c5be3f2e6ff7919b937d891e25f58a0fbefd",
+        "sha256_in_prefix": "a30ab2ede154f157274f70cccbb6c5be3f2e6ff7919b937d891e25f58a0fbefd",
+        "size_in_bytes": 31727
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/__pycache__/_version.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "edfdb620d0209504becfea3cc1222e25531a6bdc6fe203066cb0462bf47293e7",
+        "sha256_in_prefix": "edfdb620d0209504becfea3cc1222e25531a6bdc6fe203066cb0462bf47293e7",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/_noop.py",
+        "path_type": "hardlink",
+        "sha256": "4830094e25a113b8372b2b6d6e33dd962bfe5217ae6acfad297e3fcbf9ef3bf4",
+        "sha256_in_prefix": "4830094e25a113b8372b2b6d6e33dd962bfe5217ae6acfad297e3fcbf9ef3bf4",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/_testbase.py",
+        "path_type": "hardlink",
+        "sha256": "de255b844ead1435e803c55f350088de9e7da5b6268ffc0d3e641d0fc5486658",
+        "sha256_in_prefix": "de255b844ead1435e803c55f350088de9e7da5b6268ffc0d3e641d0fc5486658",
+        "size_in_bytes": 15350
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/_version.py",
+        "path_type": "hardlink",
+        "sha256": "e056fc3fde00a129988ba0db066fcbdec2b21194f0693e8c03a5cd59a63b33f5",
+        "sha256_in_prefix": "e056fc3fde00a129988ba0db066fcbdec2b21194f0693e8c03a5cd59a63b33f5",
+        "size_in_bytes": 576
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/cbhandles.pxd",
+        "path_type": "hardlink",
+        "sha256": "816d2ca52f38c1b7ee107b9811b452b0788a4666f9a5f0c791866fc614c2f95a",
+        "sha256_in_prefix": "816d2ca52f38c1b7ee107b9811b452b0788a4666f9a5f0c791866fc614c2f95a",
+        "size_in_bytes": 752
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/cbhandles.pyx",
+        "path_type": "hardlink",
+        "sha256": "7d59468d829a00c55d55a14a73bb04093d8ce8099eb712d1efba11e2bb885bcc",
+        "sha256_in_prefix": "7d59468d829a00c55d55a14a73bb04093d8ce8099eb712d1efba11e2bb885bcc",
+        "size_in_bytes": 12116
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/dns.pyx",
+        "path_type": "hardlink",
+        "sha256": "409c7ac7ed3e31a0248cde45ff3b09e206b63e1a8c0181f7c553bd413b81c511",
+        "sha256_in_prefix": "409c7ac7ed3e31a0248cde45ff3b09e206b63e1a8c0181f7c553bd413b81c511",
+        "size_in_bytes": 14159
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/errors.pyx",
+        "path_type": "hardlink",
+        "sha256": "d9eb589fcf53877b48b0d30b977dd0b9cfb55a428a63bba63ce56f8a54f38bd9",
+        "sha256_in_prefix": "d9eb589fcf53877b48b0d30b977dd0b9cfb55a428a63bba63ce56f8a54f38bd9",
+        "size_in_bytes": 2774
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/async_.pxd",
+        "path_type": "hardlink",
+        "sha256": "c6db164a2d00ebb8e8254e22169e495b3431c0d8f82c2abf28c0f20c333175e7",
+        "sha256_in_prefix": "c6db164a2d00ebb8e8254e22169e495b3431c0d8f82c2abf28c0f20c333175e7",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/async_.pyx",
+        "path_type": "hardlink",
+        "sha256": "857e889d664940d11d77cda096a74241d0b394078c0aedc90d4a67e25f10bdab",
+        "sha256_in_prefix": "857e889d664940d11d77cda096a74241d0b394078c0aedc90d4a67e25f10bdab",
+        "size_in_bytes": 1500
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/basetransport.pxd",
+        "path_type": "hardlink",
+        "sha256": "4a20c3efb34fb614df8d7560d768092463356182995f0e0010af6dbf6da325e1",
+        "sha256_in_prefix": "4a20c3efb34fb614df8d7560d768092463356182995f0e0010af6dbf6da325e1",
+        "size_in_bytes": 1322
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/basetransport.pyx",
+        "path_type": "hardlink",
+        "sha256": "1ad377bdda7a0c3921d60d1144f7a68f4af8c7e131b24c3e9b5ea9fef63f13d8",
+        "sha256_in_prefix": "1ad377bdda7a0c3921d60d1144f7a68f4af8c7e131b24c3e9b5ea9fef63f13d8",
+        "size_in_bytes": 9553
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/check.pxd",
+        "path_type": "hardlink",
+        "sha256": "22e7c5af374c84b45ce7302387b2dbd2502ac3e51c96b615a3e520a88b3a789d",
+        "sha256_in_prefix": "22e7c5af374c84b45ce7302387b2dbd2502ac3e51c96b615a3e520a88b3a789d",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/check.pyx",
+        "path_type": "hardlink",
+        "sha256": "1370695eb59412d580efca327e147dec52634c189812bd9cb636c495d8da4561",
+        "sha256_in_prefix": "1370695eb59412d580efca327e147dec52634c189812bd9cb636c495d8da4561",
+        "size_in_bytes": 1865
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/fsevent.pxd",
+        "path_type": "hardlink",
+        "sha256": "61f92543d4de8a4455d9044b34f02d904c2eff7bf0aec3aaf5c309c4557c5602",
+        "sha256_in_prefix": "61f92543d4de8a4455d9044b34f02d904c2eff7bf0aec3aaf5c309c4557c5602",
+        "size_in_bytes": 325
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/fsevent.pyx",
+        "path_type": "hardlink",
+        "sha256": "60041634e6f5d14c4845bd7c25ee5e4535c51e4b203dd6b2b8bcab02705ce289",
+        "sha256_in_prefix": "60041634e6f5d14c4845bd7c25ee5e4535c51e4b203dd6b2b8bcab02705ce289",
+        "size_in_bytes": 2826
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/handle.pxd",
+        "path_type": "hardlink",
+        "sha256": "40f8d408e6e40f0be3440645968945d6d357155f7e8c07f6d95d0ac1e88b74e0",
+        "sha256_in_prefix": "40f8d408e6e40f0be3440645968945d6d357155f7e8c07f6d95d0ac1e88b74e0",
+        "size_in_bytes": 1189
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/handle.pyx",
+        "path_type": "hardlink",
+        "sha256": "162355d7e353a254f04cad879d44a478b66fe5cfb764a4226521f4363d217af7",
+        "sha256_in_prefix": "162355d7e353a254f04cad879d44a478b66fe5cfb764a4226521f4363d217af7",
+        "size_in_bytes": 13219
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/idle.pxd",
+        "path_type": "hardlink",
+        "sha256": "2f71abdadbb3287584076367ca4c236cdc9ec4d52572405d18528fb9f9f90195",
+        "sha256_in_prefix": "2f71abdadbb3287584076367ca4c236cdc9ec4d52572405d18528fb9f9f90195",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/idle.pyx",
+        "path_type": "hardlink",
+        "sha256": "1fbdb8f66f8a6b11a9cedc2558c76afc1b4d035becf1b61310a6bb3fb7dcb0d2",
+        "sha256_in_prefix": "1fbdb8f66f8a6b11a9cedc2558c76afc1b4d035becf1b61310a6bb3fb7dcb0d2",
+        "size_in_bytes": 1843
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/pipe.pxd",
+        "path_type": "hardlink",
+        "sha256": "2f3b043b0a6d92a35ae763b5232aa1c6ad9de29a73987af4c7c70cc0921965f9",
+        "sha256_in_prefix": "2f3b043b0a6d92a35ae763b5232aa1c6ad9de29a73987af4c7c70cc0921965f9",
+        "size_in_bytes": 933
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/pipe.pyx",
+        "path_type": "hardlink",
+        "sha256": "30e86a8e30fcaecf71c93bb4eb4d53aee1505356ab261f085fa084a6eb32a045",
+        "sha256_in_prefix": "30e86a8e30fcaecf71c93bb4eb4d53aee1505356ab261f085fa084a6eb32a045",
+        "size_in_bytes": 6950
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/poll.pxd",
+        "path_type": "hardlink",
+        "sha256": "03aa1a535b8131b2ec810d6c024e558337852223abfea686944ab8d49a3625ff",
+        "sha256_in_prefix": "03aa1a535b8131b2ec810d6c024e558337852223abfea686944ab8d49a3625ff",
+        "size_in_bytes": 566
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/poll.pyx",
+        "path_type": "hardlink",
+        "sha256": "5967cb79e5aa13368c8ce103894a1eb6c00d13ee3314058c13bc54e98a1c591d",
+        "sha256_in_prefix": "5967cb79e5aa13368c8ce103894a1eb6c00d13ee3314058c13bc54e98a1c591d",
+        "size_in_bytes": 6506
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/process.pxd",
+        "path_type": "hardlink",
+        "sha256": "42f46d9e52b089b88f22823f1e2cb7a5ce3d081ed3c02674aa7af2a4469b722e",
+        "sha256_in_prefix": "42f46d9e52b089b88f22823f1e2cb7a5ce3d081ed3c02674aa7af2a4469b722e",
+        "size_in_bytes": 2297
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/process.pyx",
+        "path_type": "hardlink",
+        "sha256": "32da46c043bd158271496fdb0fe821a6707dea4b510c78baa93b2991543543e6",
+        "sha256_in_prefix": "32da46c043bd158271496fdb0fe821a6707dea4b510c78baa93b2991543543e6",
+        "size_in_bytes": 25818
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/stream.pxd",
+        "path_type": "hardlink",
+        "sha256": "d41012ca11bccfd1c37f86629163ea77e86575080649d1e5ded6be9cd1270a11",
+        "sha256_in_prefix": "d41012ca11bccfd1c37f86629163ea77e86575080649d1e5ded6be9cd1270a11",
+        "size_in_bytes": 1535
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/stream.pyx",
+        "path_type": "hardlink",
+        "sha256": "22e1d4bc4a40a697ce6e38c100244da863293adf60c2a485320cc8db079453c8",
+        "sha256_in_prefix": "22e1d4bc4a40a697ce6e38c100244da863293adf60c2a485320cc8db079453c8",
+        "size_in_bytes": 31977
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/streamserver.pxd",
+        "path_type": "hardlink",
+        "sha256": "8480c3841d912b4967314b1c0d670697635191c95be8061f7217bbed811d69eb",
+        "sha256_in_prefix": "8480c3841d912b4967314b1c0d670697635191c95be8061f7217bbed811d69eb",
+        "size_in_bytes": 786
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/streamserver.pyx",
+        "path_type": "hardlink",
+        "sha256": "fbbd0eb369e2e9e46da925ef83a0732625070c9ae808a3f4e5368a7c2e2b2de6",
+        "sha256_in_prefix": "fbbd0eb369e2e9e46da925ef83a0732625070c9ae808a3f4e5368a7c2e2b2de6",
+        "size_in_bytes": 4650
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/tcp.pxd",
+        "path_type": "hardlink",
+        "sha256": "c4d632f9d7f5b4ae72c0add5edad305a7a3db4003b247f85888439174dbde993",
+        "sha256_in_prefix": "c4d632f9d7f5b4ae72c0add5edad305a7a3db4003b247f85888439174dbde993",
+        "size_in_bytes": 892
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/tcp.pyx",
+        "path_type": "hardlink",
+        "sha256": "e0de9ea54b98f838200d14a0d5130c8be79b65232c5b17db22e5e5bffa8d853a",
+        "sha256_in_prefix": "e0de9ea54b98f838200d14a0d5130c8be79b65232c5b17db22e5e5bffa8d853a",
+        "size_in_bytes": 7271
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/timer.pxd",
+        "path_type": "hardlink",
+        "sha256": "55c2d905fcddf62c6ec6626b13d3b7626c953b82df303c1c1bb50da496d3bb8d",
+        "sha256_in_prefix": "55c2d905fcddf62c6ec6626b13d3b7626c953b82df303c1c1bb50da496d3bb8d",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/timer.pyx",
+        "path_type": "hardlink",
+        "sha256": "b69183aafdd7f742e6eb7c86997716548e51a2f33be07fb04b0fac75adf84dd1",
+        "sha256_in_prefix": "b69183aafdd7f742e6eb7c86997716548e51a2f33be07fb04b0fac75adf84dd1",
+        "size_in_bytes": 2400
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/udp.pxd",
+        "path_type": "hardlink",
+        "sha256": "8109fd147e2b0225c347f91936a69870d30633314bf93d55d46f0923a24e1d4f",
+        "sha256_in_prefix": "8109fd147e2b0225c347f91936a69870d30633314bf93d55d46f0923a24e1d4f",
+        "size_in_bytes": 671
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/handles/udp.pyx",
+        "path_type": "hardlink",
+        "sha256": "e96a30ab65fab903c62d5afe7199a9408762b97b901792f10540bd752fbb42a6",
+        "sha256_in_prefix": "e96a30ab65fab903c62d5afe7199a9408762b97b901792f10540bd752fbb42a6",
+        "size_in_bytes": 12041
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/includes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f8e519eb3afa3a9770efc3cab07622d40b8fef8129ed7072c72a1160eb91b602",
+        "sha256_in_prefix": "f8e519eb3afa3a9770efc3cab07622d40b8fef8129ed7072c72a1160eb91b602",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/includes/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a12c35a2420c2060fdfceb1a70b2e4c312ddae8985932866d2ef57e46ad26d64",
+        "sha256_in_prefix": "a12c35a2420c2060fdfceb1a70b2e4c312ddae8985932866d2ef57e46ad26d64",
+        "size_in_bytes": 715
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/includes/compat.h",
+        "path_type": "hardlink",
+        "sha256": "cbb9cf0cd085050cddbb0a63038f9dbac57e49847baf1e21ee2c6812527849a6",
+        "sha256_in_prefix": "cbb9cf0cd085050cddbb0a63038f9dbac57e49847baf1e21ee2c6812527849a6",
+        "size_in_bytes": 1674
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/includes/consts.pxi",
+        "path_type": "hardlink",
+        "sha256": "f1110e76b4746b40e22485a5408f42d89c31cf610dfa22bb9a8a5c45831d556d",
+        "sha256_in_prefix": "f1110e76b4746b40e22485a5408f42d89c31cf610dfa22bb9a8a5c45831d556d",
+        "size_in_bytes": 687
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/includes/debug.h",
+        "path_type": "hardlink",
+        "sha256": "d458699359e2f0a949d12d18a9e223d75925f97283113987d528dffb203fbe1b",
+        "sha256_in_prefix": "d458699359e2f0a949d12d18a9e223d75925f97283113987d528dffb203fbe1b",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/includes/debug.pxd",
+        "path_type": "hardlink",
+        "sha256": "7029e5ca9e87921420545ee50103c0df5c086b59f5a67e9e518ff0011621dee0",
+        "sha256_in_prefix": "7029e5ca9e87921420545ee50103c0df5c086b59f5a67e9e518ff0011621dee0",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/includes/flowcontrol.pxd",
+        "path_type": "hardlink",
+        "sha256": "ecfb99b44829e134b563788da996489e40ca239882ca5111adc2ea7b696cdc46",
+        "sha256_in_prefix": "ecfb99b44829e134b563788da996489e40ca239882ca5111adc2ea7b696cdc46",
+        "size_in_bytes": 458
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/includes/fork_handler.h",
+        "path_type": "hardlink",
+        "sha256": "095e552b8464271812d0fb73ab9e81929df9ca0a10700161c3132442bd28de47",
+        "sha256_in_prefix": "095e552b8464271812d0fb73ab9e81929df9ca0a10700161c3132442bd28de47",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/includes/python.pxd",
+        "path_type": "hardlink",
+        "sha256": "988a92015d04f94b152077556b5ef96a0a57af79abbc062592ef899f0386a332",
+        "sha256_in_prefix": "988a92015d04f94b152077556b5ef96a0a57af79abbc062592ef899f0386a332",
+        "size_in_bytes": 846
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/includes/stdlib.pxi",
+        "path_type": "hardlink",
+        "sha256": "4852516f7a8bb6ce9038159f798b9b631979600589f506cccebf0ab5e637f102",
+        "sha256_in_prefix": "4852516f7a8bb6ce9038159f798b9b631979600589f506cccebf0ab5e637f102",
+        "size_in_bytes": 6334
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/includes/system.pxd",
+        "path_type": "hardlink",
+        "sha256": "a5b5ce7997976836746f708814e80e6c4e42f9cafabe18ba8a8f85f302c868d4",
+        "sha256_in_prefix": "a5b5ce7997976836746f708814e80e6c4e42f9cafabe18ba8a8f85f302c868d4",
+        "size_in_bytes": 2186
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/includes/uv.pxd",
+        "path_type": "hardlink",
+        "sha256": "cf5ec1541768d220d540694c4ea0bd0a31263509db28bc195ce4bfe85fcfa7a6",
+        "sha256_in_prefix": "cf5ec1541768d220d540694c4ea0bd0a31263509db28bc195ce4bfe85fcfa7a6",
+        "size_in_bytes": 15998
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/loop.c",
+        "path_type": "hardlink",
+        "sha256": "8b90a1d9b91531c03ef79f950cfcbc616d0d9e5964f5aa3c9d76d3241b470a5a",
+        "sha256_in_prefix": "8b90a1d9b91531c03ef79f950cfcbc616d0d9e5964f5aa3c9d76d3241b470a5a",
+        "size_in_bytes": 7288594
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/loop.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "817bb889703153a43ce4398f2b83c5d9d434c82754026694728af29a891b1ae0",
+        "sha256_in_prefix": "817bb889703153a43ce4398f2b83c5d9d434c82754026694728af29a891b1ae0",
+        "size_in_bytes": 1680464
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/loop.pxd",
+        "path_type": "hardlink",
+        "sha256": "ec26d43413feed9fc45368f42be4139e61eb2d07e16fcc7eb4f9c3beee7b3db1",
+        "sha256_in_prefix": "ec26d43413feed9fc45368f42be4139e61eb2d07e16fcc7eb4f9c3beee7b3db1",
+        "size_in_bytes": 6190
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/loop.pyi",
+        "path_type": "hardlink",
+        "sha256": "86c213fb317f0c72e4d29d4d62d2ad9f6b6bcacd9514f497351ac4e50ecc02b7",
+        "sha256_in_prefix": "86c213fb317f0c72e4d29d4d62d2ad9f6b6bcacd9514f497351ac4e50ecc02b7",
+        "size_in_bytes": 10449
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/loop.pyx",
+        "path_type": "hardlink",
+        "sha256": "9184a00e970e034c5621f754ca6767df18e1b24f99597c9745e9041de68ea31e",
+        "sha256_in_prefix": "9184a00e970e034c5621f754ca6767df18e1b24f99597c9745e9041de68ea31e",
+        "size_in_bytes": 117032
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/lru.pyx",
+        "path_type": "hardlink",
+        "sha256": "9c1678ceecb85e3b1d2e8aeaf8984d4bb58e6dc2e965632bd4e8f246fbfc15a2",
+        "sha256_in_prefix": "9c1678ceecb85e3b1d2e8aeaf8984d4bb58e6dc2e965632bd4e8f246fbfc15a2",
+        "size_in_bytes": 2279
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/pseudosock.pyx",
+        "path_type": "hardlink",
+        "sha256": "3371fba8c1855c4f5964bbd8c0e80197765c340e4e2929d9ecd5062c903b0250",
+        "sha256_in_prefix": "3371fba8c1855c4f5964bbd8c0e80197765c340e4e2929d9ecd5062c903b0250",
+        "size_in_bytes": 5383
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/request.pxd",
+        "path_type": "hardlink",
+        "sha256": "ef2c7c2651b41eed9cbff8b640267f59d2e5b068c8d33e5e33fb9e38e3a02bac",
+        "sha256_in_prefix": "ef2c7c2651b41eed9cbff8b640267f59d2e5b068c8d33e5e33fb9e38e3a02bac",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/request.pyx",
+        "path_type": "hardlink",
+        "sha256": "ebef0399ee8ba13f3c079f8ccef9a9b8b9f7846b7579995e92f4311b4c76cbcb",
+        "sha256_in_prefix": "ebef0399ee8ba13f3c079f8ccef9a9b8b9f7846b7579995e92f4311b4c76cbcb",
+        "size_in_bytes": 2259
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/server.pxd",
+        "path_type": "hardlink",
+        "sha256": "ff3443899323b26971251a34283cd2334c727e0da4f93ce51a59f9e30bd70be6",
+        "sha256_in_prefix": "ff3443899323b26971251a34283cd2334c727e0da4f93ce51a59f9e30bd70be6",
+        "size_in_bytes": 394
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/server.pyx",
+        "path_type": "hardlink",
+        "sha256": "eb00b9bd48401e79d4b3ba873895ef464828bf7f08798f31a7ac38e7eac24457",
+        "sha256_in_prefix": "eb00b9bd48401e79d4b3ba873895ef464828bf7f08798f31a7ac38e7eac24457",
+        "size_in_bytes": 3623
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/sslproto.pxd",
+        "path_type": "hardlink",
+        "sha256": "7c23395d6bb96524c3a5fe7ffb01768ef8fbed8e34df2938d103a259cd30a35b",
+        "sha256_in_prefix": "7c23395d6bb96524c3a5fe7ffb01768ef8fbed8e34df2938d103a259cd30a35b",
+        "size_in_bytes": 3534
+      },
+      {
+        "_path": "lib/python3.11/site-packages/uvloop/sslproto.pyx",
+        "path_type": "hardlink",
+        "sha256": "10bd5f724c688d82b8d8e080209fa0794a0a734ba770f1f5857839d2ba0143ed",
+        "sha256_in_prefix": "10bd5f724c688d82b8d8e080209fa0794a0a734ba770f1f5857839d2ba0143ed",
+        "size_in_bytes": 35381
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2ecf73cb0c885989e526a9ee8716d3fac1ace9505e9874bc2495788d033bbde9",
+  "size": 1095662,
+  "subdir": "linux-64",
+  "timestamp": 1666808653764,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/uvloop-0.17.0-py311hd4cff14_1.tar.bz2",
+  "version": "0.17.0"
+}
