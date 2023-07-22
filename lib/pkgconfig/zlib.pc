@@ -1,0 +1,13 @@
+prefix=/opt/mahantesh/pythonProject
+exec_prefix=/opt/mahantesh/pythonProject
+libdir=/opt/mahantesh/pythonProject/lib
+sharedlibdir=/opt/mahantesh/pythonProject/lib
+includedir=/opt/mahantesh/pythonProject/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
