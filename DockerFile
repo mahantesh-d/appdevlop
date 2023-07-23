@@ -1,0 +1,10 @@
+# FROM centos
+# RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+# RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+# RUN yum intall wget -y
+# RUN ["wget", "https://repo.anaconda.com/miniconda/Miniconda3-py311_23.5.2-0-Linux-x86_64.sh"]
+# RUN ["bash", "Miniconda3-py311_23.5.2-0-Linux-x86_64.sh"]
+# RUN echo $(conda-env list)
+
+FROM mahanteshd4140/centos-miniconda:miniconda
+RUN source ~/.bashrc && conda activate /opt/mahantesh/pythonProject && cd /opt/mahantesh/pythonProject && uvicorn pyApplication:app
