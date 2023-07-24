@@ -1,13 +1,10 @@
 pipeline{
-    agent{
-        dockerfile true
-    }
+    agent any
     stages{
-        stage("Build Docker Image"){
+        stage('Build stage'){
             steps{
-                echo "Hello World"
-                sh conda-env list
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/mahantesh-d/appdevlop']])
             }
-            
         }
     }
+}
