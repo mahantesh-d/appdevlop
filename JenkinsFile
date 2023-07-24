@@ -9,7 +9,7 @@ pipeline{
         }
         stage('Build Docker image'){
             steps{
-                sh 'sudo docker build -d --no-cache --pull --rm -f "DockerFile" -t pythonproject:latest "."'
+                sh 'sudo docker build --no-cache --pull --rm -f "DockerFile" -t pythonproject:latest "."'
                 sh 'sudo docker ps -a'
             }
         }
