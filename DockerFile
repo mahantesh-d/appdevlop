@@ -9,4 +9,5 @@
 FROM mahanteshd4140/centos-miniconda:miniconda
 COPY pyApplication.py /opt/mahantesh/pythonProject
 RUN source ~/.bashrc && conda activate /opt/mahantesh/pythonProject
-ENTRYPOINT [ "cd /opt/mahantesh/pythonProject && uvicorn pyApplication:app &" ]
+WORKDIR /opt/mahantesh/pythonProject
+ENTRYPOINT [ "uvicorn pyApplication:app &" ]
