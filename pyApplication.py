@@ -11,7 +11,8 @@ students = [
 employee = [
     {'name': 'Shri', 'Desg': 'VP'},
     {'name': 'Sachin', 'Desg': 'DIR'},
-    {'name': 'Mahantesh', 'Desg': 'ENO'}
+    {'name': 'Mahantesh', 'Desg': 'ENO'},
+    {'name': 'Amey', 'Desg': 'TA'}
 ]   
 
 @app.get('/students')
