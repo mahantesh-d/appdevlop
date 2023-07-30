@@ -13,5 +13,15 @@ pipeline{
                 sh 'sudo docker ps -a'
             }
         }
+        stage('Create Container'){
+            steps{
+                sh 'sudo docker run --network host -P --privileged -d -ti -e "container=docker" -v /sys/fs/cgroup:/sys/fs/cgroup --name demotodel pythonproject /usr/sbin/init'
+            }
+        }
+        stage('Testing the deployemnt'){
+            steps{
+                sh 'curl "http://localhost:8000/students"'
+            }
+        }
     }
 }
