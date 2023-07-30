@@ -8,9 +8,19 @@ students = [
     {'name': 'student 3', 'age': 36 }
 ]
 
+employee = {
+    {'name': 'Shri', 'Desg': 'VP'},
+    {'name': 'Sachin', 'Desg': 'DIR'},
+    {'name': 'Mahantesh', 'Desg': 'ENO'}
+}
+
 @app.get('/students')
 def user_list():
     return{'students': students}
+
+@app.get('/employee')
+def emp_list():
+    return{'employee': employee}
 
 # from flask import Flask
 # app = Flask(__name__)
