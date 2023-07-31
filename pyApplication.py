@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+import uvicorn
 
 app = FastAPI()
 
@@ -23,6 +24,9 @@ def user_list():
 def emp_list():
     return{'employee': employee}
 
+if __name__=='__main__':
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+
 # from flask import Flask
 # app = Flask(__name__)
 
@@ -31,4 +35,4 @@ def emp_list():
 #     return{'students': students}
 
 # if __name__ == '__main__':
-#     app.run(debug=True,port=6379)
+#     app.run(debug=True,host="0.0.0.0",port=8000)
