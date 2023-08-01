@@ -20,7 +20,17 @@ pipeline{
         }
         stage('Testing the deployemnt'){
             steps{
-                sh 'curl "http://localhost:8000/students"'
+                sh 'sleep 15'
+                sh 'curl -s "http://localhost:8000/students"'
+                sh 'curl -s "http://localhost:8000/employee"'
+            }
+        }
+        stages('Deploying the container'){
+            steps{
+                sh 'sudo docker run -p 10000:8000 -P --privileged -d -ti -e "container=docker" -v /sys/fs/cgroup:/sys/fs/cgroup --name pyapplication pythonproject /usr/sbin/init'
+                sh 'sleep 15'
+                sh 'curl -s "http://localhost:10000/students"'
+                sh 'curl -s "http://localhost:10000/employee"'
             }
         }
     }
