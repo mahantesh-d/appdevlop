@@ -25,7 +25,7 @@ pipeline{
                 sh 'curl -s "http://localhost:8000/employee"'
             }
         }
-        stages('Deploying the container'){
+        stage('Deploying the container'){
             steps{
                 sh 'sudo docker run -p 10000:8000 -P --privileged -d -ti -e "container=docker" -v /sys/fs/cgroup:/sys/fs/cgroup --name pyapplication pythonproject /usr/sbin/init'
                 sh 'sleep 15'
