@@ -13,24 +13,30 @@ pipeline{
                 sh 'sudo docker ps -a'
             }
         }
-        stage('Create Container'){
-            steps{
-                sh 'sudo docker run --network host -P --privileged -d -ti -e "container=docker" -v /sys/fs/cgroup:/sys/fs/cgroup --name demotodel pythonproject /usr/sbin/init'
-            }
-        }
-        stage('Testing the deployemnt'){
-            steps{
-                sh 'sleep 15'
-                sh 'curl -s "http://localhost:8000/students"'
-                sh 'curl -s "http://localhost:8000/employee"'
-            }
-        }
         stage('Deploying the container'){
             steps{
                 sh 'sudo docker run -p 10000:8000 -P --privileged -d -ti -e "container=docker" -v /sys/fs/cgroup:/sys/fs/cgroup --name pyapplication pythonproject /usr/sbin/init'
                 sh 'sleep 15'
+            }
+        }
+        stage('Testing the Deployment'){
+            steps{      
                 sh 'curl -s "http://localhost:10000/students"'
                 sh 'curl -s "http://localhost:10000/employee"'
+            }
+        }
+        stage('Deploying on Kubernetes'){
+            steps{
+                sh 'sudo -H -u mahantesh bash -c "/usr/local/bin/kubectl create -f app-service.yaml"'
+                sh 'sudo -H -u mahantesh bash -c "/usr/local/bin/kubectl create -f app-depolyment.yaml"'
+                sh 'sleep 15'
+                sh 'sudo -H -u mahantesh bash -c "/usr/local/bin/minikube service myapp-service"'
+            }
+        }
+        stage('Testing the k8s Deployment'){
+            steps{
+                sh 'curl -s "http://192.168.58.2:30000/employee"'
+                sh 'curl -s "http://192.168.58.2:30000/students"'
             }
         }
     }
